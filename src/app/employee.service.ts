@@ -8,7 +8,7 @@ import {Employee} from "./employee";
 })
 export class EmployeeService {
 
-  private baseURL = "http://localhost:8080/employees";
+  baseURL = "http://localhost:8080/api/employees";
 
   constructor(private httpClient: HttpClient) { }
 
